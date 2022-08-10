@@ -1,13 +1,13 @@
 {
-  "name": "pashamk",
+  "name": "glxswap",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ Makav3li94/pashamk",
-    "create-local": "graph create --node http://localhost:8020/ Makav3li94/pashamk",
-    "remove-local": "graph remove --node http://localhost:8020/ Makav3li94/pashamk",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Makav3li94/pashamk"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --access-token 8b63a037dbb94443a675fe14c19c1cf6  --ipfs https://api.thegraph.com/ipfs/ Makav3li94/glxswap",
+    "create-local": "graph create --node http://localhost:8020/ Makav3li94/glxswap",
+    "remove-local": "graph remove --node http://localhost:8020/ Makav3li94/glxswap",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Makav3li94/glxswap"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.16.0",
